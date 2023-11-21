@@ -12,11 +12,12 @@ public class SeleniumTest {
     public static WebDriver driver;
     static ExtentReports reports;
     public static ExtentTest test;
-    static ExtentReports extent = new ExtentReports();
+    public static ExtentReports extent = new ExtentReports();
     @BeforeSuite
     public static void Setup() throws InterruptedException {
         driver = new ChromeDriver();
         driver.get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html");
+        driver.manage().window().maximize();
         ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");
         extent.attachReporter(spark);
         HomePage.click_hamburger_menu();
