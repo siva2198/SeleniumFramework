@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Sivaraman M/eclipse-workspace/SeleniumFramework/src/test/java/TestCases">
+        <classes>
+            <class name="TestCases.SeleniumTest">
+                <methods>
+                    <include name="validateTitles_online_products"/>
+                    <include name="validateFirstFormalShoe"/>
+                    <include name="validateFirstSportsShoe"/>
+                    <include name="validateFirstSneakerShoe"/>
+                </methods>
+            </class>
+            <class name="TestCases.SignInPortal">
+                <methods>
+                    <include name="signinportal_validation_check"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
