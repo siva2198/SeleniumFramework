@@ -4,6 +4,11 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/Sivaraman M/eclipse-workspace/SeleniumFramework/src/test/java/TestCases">
         <classes>
+            <class name="TestCases.AddToCart">
+                <methods>
+                    <include name="loginandgotoproductpage"/>
+                </methods>
+            </class>
             <class name="TestCases.SeleniumTest">
                 <methods>
                     <include name="validateTitles_online_products"/>
