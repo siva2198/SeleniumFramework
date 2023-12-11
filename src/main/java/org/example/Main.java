@@ -1,7 +1,11 @@
-package org.example;
-
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
+//package org.example;
+//
+//public  static class MainOne {
+//    int a;
+//    void increment(){
+//        a=a+1;
+//    }
+//    void decrement(){
+//        a=a-1;
+//    }
+//}
