@@ -65,3 +65,4 @@ public class HomePage {
         Assert.assertEquals("Ace Online Shoe Portal", homePageWebsiteName);
     }
 }
+//logs and end output of the test case
